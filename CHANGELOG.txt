@@ -1,0 +1,5 @@
+Tab Split 1.1.0
+
+Fixed windows sizing so windows maximize correctly.
+
+This fix also makes it so monitors can have different resolutions.
