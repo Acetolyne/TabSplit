@@ -1,4 +1,4 @@
-Tab Split 1.1.1
+Tab Split 1.1.2
 Author: Jonathan "Acetolyne" Langlois
 @cetolyne
 

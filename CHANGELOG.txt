@@ -1,5 +1,9 @@
-Tab Split 1.1.1
+Tab Split 1.1.2
 
-Added the ability to choose your prefered default size of fullscreen or maximized for windows.
+Updated storage to use local storage.
 
-Made original windows resize to the prefered size.
+Made size get set on install
+
+Changed default to maxmized
+
+Set fallback size incase not set

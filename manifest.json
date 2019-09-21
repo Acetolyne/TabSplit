@@ -3,6 +3,8 @@
 "manifest_version": 2,
   
 "name": "Tab Split",
+
+"short_name": "Tab Split",
   
 "description": "Forces each browser start page to open in a new browser window across multiple monitors.",
   
