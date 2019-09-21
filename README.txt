@@ -1,12 +1,15 @@
-Tab Split 1.1.0 
+Tab Split 1.1.1
 Author: Jonathan "Acetolyne" Langlois
 @cetolyne
 
 Tab Split is a Chrome extension that makes your homepage tabs open in different windows and across multiple screens.
+How it is different from other extensions is that you are not required to click a button, instead this extension runs when the browser is started which helps with automated startups for monitoring through websites.
 
 When Chrome Browser opens it will cause each tab to move to a new window. Each window is moved to the next display.
 This is useful for setting up automated monitoring in multi-headed environments.
 It will trigger one time when the Chrome browser is first opened. This allows you to keep the ability to open new tabs without them being moved to a new window when you open them. 
+
+The extension now has the ability to choose between maximized screen and fullscreen, simply click the extension icon and choose which you would like and choose save. This will be your new default, change the option anytime you want.
 
 LIMITATIONS:
 The extension opens windows horizontally and will not open in a vertical manner, meaning monitors must be setup in a horizontal fashion to display correctly.

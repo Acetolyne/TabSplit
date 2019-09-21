@@ -1,5 +1,5 @@
-Tab Split 1.1.0
+Tab Split 1.1.1
 
-Fixed windows sizing so windows maximize correctly.
+Added the ability to choose your prefered default size of fullscreen or maximized for windows.
 
-This fix also makes it so monitors can have different resolutions.
+Made original windows resize to the prefered size.
