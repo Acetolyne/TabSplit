@@ -1,3 +1,8 @@
+chrome.runtime.onInstalled.addListener(function() {
+  chrome.storage.sync.set({size: 'fullscreen'}, function() {
+    console.log("TabSplit successfully installed");
+  });
+});
 chrome.windows.getCurrent({}, function(window){
   chrome.storage.sync.get(['size'], function(result){
     chrome.windows.update(window.id, {state: result.size}, function(){})

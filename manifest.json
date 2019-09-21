@@ -6,7 +6,7 @@
   
 "description": "Forces each browser start page to open in a new browser window across multiple monitors.",
   
-"version": "1.1.1",
+"version": "1.1.2",
   
 "background": {
     
