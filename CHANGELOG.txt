@@ -1,9 +1,5 @@
-Tab Split 1.1.2
+Tab Split 1.1.3
 
-Updated storage to use local storage.
+Remove tab permission to comply with chrome store requirements. tab permission does not need to be implied in permissions to have the permission savailable to extension.
 
-Made size get set on install
-
-Changed default to maxmized
-
-Set fallback size incase not set
+Update to manifest v3
