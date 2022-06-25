@@ -1,9 +1,10 @@
-Tab Split 1.1.2
+Tab Split 1.1.3
 
-Updated storage to use local storage.
+Remove tab permission to comply with chrome store requirements. tab permission does not need to be implied in permissions to have the permission savailable to extension.
 
-Made size get set on install
+Update to manifest v3 to prevent issues when v2 is deprecated.
 
-Changed default to maxmized
+Fix issue where tabs were not opening on new screens due to changes in the chrome API.
 
-Set fallback size incase not set
+If there are more startup tabs than monitors the additional tabs will now be put all on the last monitors window instead of in separate chrome windows.
+
