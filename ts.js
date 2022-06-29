@@ -19,6 +19,9 @@ chrome.runtime.onStartup.addListener(function () {
 								cnt = 1;
 								while (cnt < tabs.length) {
 									chrome.windows.create({ tabId: tabs[cnt].id, left: offset, top: 0 }, function (window) {
+										if(chrome.runtime.lastError){
+											console.warn("Error:" + chrome.runtime.lastError.message);
+										}
 										if (window) {
 											chrome.windows.update(window.id, { state: result.size }, function (w) { });
 										} else {
