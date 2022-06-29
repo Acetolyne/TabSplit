@@ -20,7 +20,7 @@ chrome.runtime.onStartup.addListener(function () {
 								while (cnt < tabs.length) {
 									chrome.windows.create({ tabId: tabs[cnt].id, left: offset, top: 0 }, function (window) {
 										if(chrome.runtime.lastError){
-											console.warn("Error:" + chrome.runtime.lastError.message);
+											console.warn("No more monitors available, adding tab to last window");
 										}
 										if (window) {
 											chrome.windows.update(window.id, { state: result.size }, function (w) { });
